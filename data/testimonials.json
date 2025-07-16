@@ -1,0 +1,37 @@
+[
+  {
+    "text": "El mejor café de la ciudad sin duda. Cada visita es una experiencia, desde el ambiente hasta la atención. ¡Mi lugar favorito para trabajar remoto!",
+    "authorName": "Ana Martínez",
+    "authorDesc": "Cliente frecuente",
+    "avatar": "images/client-1.jpg",
+    "rating": 5
+  },
+  {
+    "text": "Los postres son simplemente increíbles, especialmente el pastel de chocolate. El balance perfecto entre dulce y amargo. ¡Nunca decepcionan!",
+    "authorName": "Carlos Rodríguez",
+    "authorDesc": "Food Blogger",
+    "avatar": "images/client-2.jpg",
+    "rating": 5
+  },
+  {
+    "text": "El ambiente es perfecto para trabajar o tener una reunión tranquila. El café es excepcional y el personal siempre es muy amable y atento.",
+    "authorName": "Laura Vega",
+    "authorDesc": "Profesional independiente",
+    "avatar": "images/client-3.jpg",
+    "rating": 4.5
+  },
+  {
+    "text": "¡El Aroma es mi refugio diario! Su cold brew es insuperable y siempre encuentro un espacio tranquilo para mis lecturas. ¡Altamente recomendado!",
+    "authorName": "Sofía G.",
+    "authorDesc": "Estudiante",
+    "avatar": "https://placehold.co/60x60/D4C9BF/333333?text=SG",
+    "rating": 4
+  },
+  {
+    "text": "Cada vez que visito El Aroma, me siento como en casa. La calidad de sus productos y la calidez de su equipo hacen la diferencia.",
+    "authorName": "Miguel R.",
+    "authorDesc": "Visitante ocasional",
+    "avatar": "https://placehold.co/60x60/F5EFE6/6F4E37?text=MR",
+    "rating": 5
+  }
+]

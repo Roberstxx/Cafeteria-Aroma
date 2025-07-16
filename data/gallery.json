@@ -1,0 +1,50 @@
+[
+  {
+    "src": "img/EspacioPrincipal.jpg",
+    "fullSrc": "img/EspacioPrincipal.jpg",
+    "alt": "Interior de la cafetería El Aroma, con mesas de madera y luz cálida.",
+    "caption": "Nuestro espacio principal"
+  },
+  {
+    "src": "img/ArteTaza.jpg",
+    "fullSrc": "img/ArteTaza.jpg",
+    "alt": "Barista concentrado preparando una taza de café en la máquina de espresso.",
+    "caption": "Arte en cada taza"
+  },
+  {
+    "src": "img/PostresDia.avif",
+    "fullSrc": "img/PostresDia.avif",
+    "alt": "Variedad de postres artesanales exhibidos en el mostrador: pasteles, galletas y muffins.",
+    "caption": "Postres del día"
+  },
+  {
+    "src": "img/CafeteriaNoche.jpg",
+    "fullSrc": "img/CafeteriaNoche.jpg",
+    "alt": "Clientes disfrutando de un evento nocturno con música en vivo en la cafetería.",
+    "caption": "Noches especiales"
+  },
+  {
+    "src": "img/DetallesEnamoran.webp",
+    "fullSrc": "img/DetallesEnamoran.webp",
+    "alt": "Primer plano de un latte art complejo en una taza de café.",
+    "caption": "Detalles que enamoran"
+  },
+  {
+    "src": "img/TeEsperamos.webp",
+    "fullSrc": "img/TeEsperamos.webp",
+    "alt": "Fachada de la cafetería 'El Aroma' con letrero iluminado y macetas.",
+    "caption": "Te esperamos"
+  },
+  {
+    "src": "img/Relax.jpg",
+    "fullSrc": "img/Relax.jpg",
+    "alt": "Ambiente acogedor de la cafetería con personas leyendo.",
+    "caption": "Relájate y disfruta"
+  },
+  {
+    "src": "img/Mural.jpg",
+    "fullSrc": "img/Mural.jpg",
+    "alt": "Detalles decorativos en el interior de la cafetería.",
+    "caption": "Cada rincón, una historia"
+  }
+]

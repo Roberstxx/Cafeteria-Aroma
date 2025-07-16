@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Té Helado de Frutos Rojos",
+    "image": "img/TeFrutosrojos.webp",
+    "price": "65 MXN",
+    "description": "Infusión fría de té negro con una mezcla vibrante de frutos rojos y un toque de menta.",
+    "badge": "Refrescante",
+    "meta": []
+  },
+  {
+    "name": "Limonada de Jengibre y Menta",
+    "image": "img/limonadajengibre.jpg",
+    "price": "50 MXN",
+    "description": "Nuestra versión casera de la limonada, con un toque picante de jengibre y frescura de menta.",
+    "badge": null,
+    "meta": []
+  },
+  {
+    "name": "Smoothie Tropical",
+    "image": "img/SmoothieTropical.jpg",
+    "price": "80 MXN",
+    "description": "Mezcla de mango, piña y maracuyá, ideal para un impulso de energía y sabor tropical.",
+    "badge": "Nuevo",
+    "meta": ["100% fruta natural"]
+  }
+]

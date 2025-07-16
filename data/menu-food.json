@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Avocado Toast Premium",
+    "image": "img/AvocadoToast.webp",
+    "price": "120 MXN",
+    "description": "Pan de masa madre tostado, aguacate machacado, huevo pochado, semillas y especias.",
+    "badge": "Recomendado",
+    "meta": ["Opción vegana disponible"]
+  },
+  {
+    "name": "Brunch El Aroma",
+    "image": "img/Brunch.jpg",
+    "price": "180 MXN",
+    "description": "Huevos al gusto, pan artesanal, aguacate, jamón serrano, fruta fresca y jugo natural.",
+    "badge": null,
+    "meta": ["Servido hasta las 14:00"]
+  },
+  {
+    "name": "Sándwich Caprese Artesanal",
+    "image": "img/Sandwichcaprese.jpg",
+    "price": "105 MXN",
+    "description": "Tomate, mozzarella fresca, albahaca y pesto en pan ciabatta rústico, tostado a la perfección.",
+    "badge": "Vegetariano",
+    "meta": ["Ingredientes de temporada"]
+  },
+  {
+    "name": "Ensalada Fresca de Quinoa",
+    "image": "img/FresaQuinoa.avif",
+    "price": "110 MXN",
+    "description": "Quinoa, pepino, tomate cherry, aguacate, cebolla morada y aderezo de limón y cilantro.",
+    "badge": "Saludable",
+    "meta": ["Vegana", "Sin gluten"]
+  },
+  {
+    "name": "Croissant de Jamón y Queso",
+    "image": "img/croissant.jpg",
+    "price": "70 MXN",
+    "description": "Clásico croissant francés horneado a la perfección, relleno de jamón de pavo y queso suizo.",
+    "badge": null,
+    "meta": ["Recién horneado"]
+  }
+]

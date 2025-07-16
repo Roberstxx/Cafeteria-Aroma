@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Latte Clásico",
+    "image": "img/LatteClasic.jpg",
+    "price": "75 MXN",
+    "description": "Espresso balanceado con leche vaporizada y una suave capa de espuma, decorado con arte latte.",
+    "badge": "Popular",
+    "meta": ["Origen: Chiapas, México", "Vegano disponible"]
+  },
+  {
+    "name": "Cold Brew Premium",
+    "image": "img/ColdBrewP.jpg",
+    "price": "85 MXN",
+    "description": "Preparado en frío por 18 horas para una experiencia suave y menos ácida. Servido con hielo esférico.",
+    "badge": "Nuevo",
+    "meta": ["Origen: Oaxaca, México"]
+  },
+  {
+    "name": "Espresso Single Origin",
+    "image": "img/SingleEspresso.webp",
+    "price": "60 MXN",
+    "description": "La esencia pura del café. Un shot intenso y aromático de nuestro blend exclusivo para espresso.",
+    "badge": null,
+    "meta": ["Origen: Veracruz, México"]
+  },
+  {
+    "name": "Americano Tradicional",
+    "image": "img/AmericanoClasico.webp",
+    "price": "55 MXN",
+    "description": "Espresso diluido con agua caliente, perfecto para quienes disfrutan el sabor puro del café.",
+    "badge": null,
+    "meta": ["Origen: Mezcla de la casa"]
+  },
+  {
+    "name": "Cappuccino Cremoso",
+    "image": "img/CapucinoCremoso.webp",
+    "price": "70 MXN",
+    "description": "La combinación perfecta de espresso, leche vaporizada y una generosa capa de espuma.",
+    "badge": null,
+    "meta": ["Opción descafeinado"]
+  },
+  {
+    "name": "Mocha Especial",
+    "image": "img/MochaEspecial.webp",
+    "price": "80 MXN",
+    "description": "Delicioso espresso con chocolate, leche vaporizada y crema batida, un verdadero placer.",
+    "badge": "Favorito",
+    "meta": []
+  }
+]

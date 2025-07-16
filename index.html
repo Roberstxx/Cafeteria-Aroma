@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería "El Aroma" | Café de Especialidad y Postres Artesanales</title>
+
+    <!-- Meta Tags SEO Mejorados -->
+    <meta name="description" content="☕ El Aroma: Cafetería especializada en café de origen y postres caseros. Ambiente acogedor ideal para trabajar, leer o reunirse. ¡Visítanos en el corazón de la ciudad!">
+    <meta name="keywords" content="cafetería, café de especialidad, postres artesanales, brunch, desayuno, merienda, té premium, ambiente acogedor, panadería artesanal, café CDMX, cafetería centro histórico, dónde tomar café">
+    <meta name="author" content="El Aroma Café">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="MX-CMX">
+    <meta name="geo.placename" content="Ciudad de México">
+    <meta name="geo.position" content="19.432608;-99.168733">
+    <link rel="canonical" href="https://www.elaromacafe.com" />
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Cafetería 'El Aroma' | Café de Especialidad y Postres Artesanales">
+    <meta property="og:description" content="Descubre el placer de un buen café de origen y postres caseros en nuestro espacio acogedor. ¡La pausa perfecta en tu día!">
+    <meta property="og:image" content="https://www.elaromacafe.com/images/social-share.jpg">
+    <meta property="og:url" content="https://www.elaromacafe.com">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:site_name" content="El Aroma Café">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cafetería 'El Aroma' | Café de Especialidad y Postres Artesanales">
+    <meta name="twitter:description" content="Descubre el placer de un buen café de origen y postres caseros en nuestro espacio acogedor. ¡La pausa perfecta en tu día!">
+    <meta name="twitter:image" content="https://www.elaromacafe.com/images/social-share.jpg">
+
+    <!-- Favicon y Web App -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6f4e37">
+    <meta name="msapplication-TileColor" content="#6f4e37">
+    <meta name="theme-color" content="#6f4e37">
+
+    <!-- Preload de recursos críticos -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Open+Sans:wght@400;600;700&display=swap" as="style">
+    <!-- Si usas un video, precarga el póster. Si es solo imagen, precarga la imagen. -->
+    <link rel="preload" href="images/hero-video-poster.jpg" as="image">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="js/main.js" as="script">
+    <link rel="preload" href="js/menu-tabs.js" as="script">
+    <link rel="preload" href="js/gallery-modal.js" as="script">
+    <link rel="preload" href="js/testimonials-slider.js" as="script">
+    <link rel="preload" href="js/menu-generator.js" as="script">
+    <link rel="preload" href="js/content-loader.js" as="script">
+
+
+    <!-- Fuentes de Google con carga optimizada -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Open+Sans:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Open+Sans:wght@400;600;700&display=swap">
+    </noscript>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Schema.org para negocio local -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "El Aroma Café",
+        "image": "https://www.elaromacafe.com/images/logo.jpg",
+        "@id": "https://www.elaromacafe.com",
+        "url": "https://www.elaromacafe.com",
+        "telephone": "+525598765432",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Calle del Café 101",
+            "addressLocality": "Ciudad de México",
+            "addressRegion": "CDMX",
+            "postalCode": "06000",
+            "addressCountry": "MX"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "19.432608",
+            "longitude": "-99.168733"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "opens": "08:00",
+                "closes": "21:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Sunday",
+                "opens": "09:00",
+                "closes": "19:00"
+            }
+        ],
+        "servesCuisine": ["Café de especialidad", "Postres artesanales", "Desayunos", "Brunch", "Tés premium"],
+        "menu": "https://www.elaromacafe.com#menu",
+        "acceptsReservations": "true",
+        "sameAs": [
+            "https://www.facebook.com/elaromacafe",
+            "https://www.instagram.com/elaromacafe",
+            "https://wa.me/525598765432"
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "250"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to Content Link para accesibilidad -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar" aria-label="Navegación principal">
+                <a href="/" class="navbar-brand" aria-label="El Aroma Café - Inicio">
+                    <img src="img/logo.svg" alt="El Aroma Café" class="navbar-brand-logo" width="50" height="50">
+                    <span class="navbar-brand-name">El Aroma</span>
+                </a>
+                
+                <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Menú de navegación">
+                    <span class="menu-toggle-icon"></span>
+                </button>
+                
+                <ul id="primary-nav" class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item"><a href="#menu" class="nav-link">Menú</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Galería</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contacto</a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <!-- Puedes usar una imagen estática con `background-image` en CSS o un video -->
+        <!-- Opción 1: Video de fondo (descomenta si usas video) -->
+        <video autoplay muted loop playsinline class="hero-video" poster="">
+            <source src="img/back.mp4" type="video/mp4">
+            Tu navegador no soporta el tag de video.
+        </video>
+       <!--  Opción 2: Imagen de fondo (si no usas video, define en CSS o coloca un img con position absolute) -->
+        <!-- <div class="hero-image" style="background-image: url('images/hero-bg.jpg');"></div> -->
+
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-title-line">El Arte del Café</span>
+                    <span class="hero-title-line">y los Pequeños Placeres</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Descubre nuestra selección de cafés de origen único y postres artesanales en un ambiente diseñado para disfrutar.
+                </p>
+                <div class="hero-cta">
+                    <a href="#menu" class="btn btn-primary">Ver Menú</a>
+                    <a href="#contact" class="btn btn-secondary">Reservar Mesa</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll-indicator" aria-hidden="true">
+            <span class="scroll-text">Desplázate</span>
+            <span class="scroll-icon"></span>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Nuestra historia</span>
+                    <h2 class="section-title">Pasión por el Café desde 2010</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p class="about-text">
+                            En **El Aroma**, cada taza de café cuenta una historia. Desde nuestros humildes comienzos como un pequeño local de barrio, hemos crecido manteniendo nuestro compromiso con la **calidad** y la **autenticidad**.
+                        </p>
+                        <p class="about-text">
+                            Trabajamos directamente con pequeños productores de Chiapas, Veracruz y Oaxaca para traerte los mejores granos de México, **tostados artesanalmente** para resaltar sus características únicas. Además, todos nuestros postres son **elaborados diariamente** en casa.
+                        </p>
+                        <ul class="about-features">
+                            <li class="about-feature">
+                                <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/>
+                                </svg>
+                                <span>Café de origen único</span>
+                            </li>
+                            <li class="about-feature">
+                                <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+                                </svg>
+                                <span>Ingredientes frescos y locales</span>
+                            </li>
+                            <li class="about-feature">
+                                <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                                </svg>
+                                <span>Amplio horario, ambiente ideal</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-frame">
+                            <img src="img/Barista.jpg" alt="Nuestro barista preparando un café especial en 'El Aroma'" class="about-img" loading="lazy" width="540" height="720">
+                            <div class="image-caption">
+                                <p>"El mejor café, hecho con pasión."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action / Valor Añadido Section (Nuevo) -->
+        <section class="cta-value-section section-padding bg-light">
+            <div class="container text-center">
+                <h3 class="cta-value-title">Más que una cafetería, un espacio para ti.</h3>
+                <p class="cta-value-description">
+                    Disfruta de nuestro WiFi de alta velocidad, cómodos asientos y un ambiente tranquilo para trabajar, estudiar o simplemente relajarte.
+                </p>
+                <a href="#contact" class="btn btn-primary btn-large">Planifica tu visita</a>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Nuestra selección</span>
+                    <h2 class="section-title">Menú Destacado</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        Descubre nuestros productos estrella, preparados con ingredientes de la más alta calidad y técnicas artesanales.
+                    </p>
+                </div>
+                
+                <div class="menu-tabs" role="tablist">
+                    <button class="menu-tab active" data-tab="coffee" role="tab" aria-selected="true" id="tab-coffee">Cafés</button>
+                    <button class="menu-tab" data-tab="food" role="tab" aria-selected="false" id="tab-food">Comida</button>
+                    <button class="menu-tab" data-tab="desserts" role="tab" aria-selected="false" id="tab-desserts">Postres</button>
+                    <button class="menu-tab" data-tab="drinks" role="tab" aria-selected="false" id="tab-drinks">Bebidas Frías</button>
+                </div>
+                
+                <!-- Este contenedor y sus paneles de categoría serán llenados por JavaScript -->
+                <div class="menu-category-container">
+                    <div class="menu-category" id="coffee-panel" role="tabpanel" aria-labelledby="tab-coffee">
+                        <h3 class="menu-category-title">Cafés de Especialidad</h3>
+                        <div class="menu-grid">
+                            <!-- Las tarjetas de café se insertarán aquí por JS -->
+                        </div>
+                    </div>
+                    
+                    <div class="menu-category" id="food-panel" role="tabpanel" aria-labelledby="tab-food" hidden>
+                        <h3 class="menu-category-title">Desayunos y Comidas Ligeras</h3>
+                        <div class="menu-grid">
+                            <!-- Las tarjetas de comida se insertarán aquí por JS -->
+                        </div>
+                    </div>
+                    
+                    <div class="menu-category" id="desserts-panel" role="tabpanel" aria-labelledby="tab-desserts" hidden>
+                        <h3 class="menu-category-title">Postres Artesanales</h3>
+                        <div class="menu-grid">
+                            <!-- Las tarjetas de postres se insertarán aquí por JS -->
+                        </div>
+                    </div>
+
+                    <div class="menu-category" id="drinks-panel" role="tabpanel" aria-labelledby="tab-drinks" hidden>
+                        <h3 class="menu-category-title">Bebidas Frías y Refrescantes</h3>
+                        <div class="menu-grid">
+                            <!-- Las tarjetas de bebidas se insertarán aquí por JS -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-cta">
+                    <a href="/menu-completo.pdf" class="btn btn-outline" download="Menu-El-Aroma.pdf">
+                        <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                        </svg>
+                        Descargar Menú Completo
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Nuestro espacio</span>
+                    <h2 class="section-title">Galería</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        Un vistazo a nuestro ambiente acogedor y los momentos que compartimos con nuestros clientes. ¡Te invitamos a ser parte!
+                    </p>
+                </div>
+                
+                <div class="gallery-grid">
+                    <!-- Los ítems de la galería se insertarán aquí por JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal para Galería -->
+        <div id="gallery-modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+            <div class="modal-content">
+                <button class="modal-close" aria-label="Cerrar galería">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+                </button>
+                <img src="" alt="" id="modal-image" class="modal-image">
+                <p id="modal-caption" class="modal-caption"></p>
+            </div>
+        </div>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section section-padding bg-dark-texture">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Lo que dicen</span>
+                    <h2 class="section-title">Nuestros Clientes</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="testimonials-slider" role="region" aria-live="polite" aria-label="Testimonios de clientes">
+                    <!-- Los testimonios se insertarán aquí por JS -->
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-slide" aria-label="Testimonio anterior">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+                    </button>
+                    <div class="slider-dots"></div>
+                    <button class="next-slide" aria-label="Testimonio siguiente">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding bg-light-map">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="section-header">
+                            <span class="section-subtitle">Visítanos</span>
+                            <h2 class="section-title">Contacto</h2>
+                            <div class="section-divider"></div>
+                        </div>
+                        
+                        <address class="contact-details">
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                </svg>
+                                <div>
+                                    <h3 class="contact-item-title">Dirección</h3>
+                                    <p class="contact-item-text">Calle del Café 101, Col. Centro<br>Ciudad de México, 06000</p>
+                                    <a href="https://maps.app.goo.gl/TUH9X2Y67Z8B2B2B9" target="_blank" rel="noopener noreferrer" class="map-link">Ver en Google Maps</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+                                </svg>
+                                <div>
+                                    <h3 class="contact-item-title">Teléfono</h3>
+                                    <p class="contact-item-text">
+                                        <a href="tel:+525598765432" class="contact-link">55 9876 5432</a>
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                </svg>
+                                <div>
+                                    <h3 class="contact-item-title">Correo</h3>
+                                    <p class="contact-item-text">
+                                        <a href="mailto:hola@elaromacafe.com" class="contact-link">hola@elaromacafe.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M16.53 11.06L15.47 10l-4.88 4.88-2.12-2.12-1.06 1.06L10.59 17l5.94-5.94zM19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11z"/>
+                                </svg>
+                                <div>
+                                    <h3 class="contact-item-title">Horario</h3>
+                                    <p class="contact-item-text">
+                                        Lunes a Sábado: 8:00 - 21:00<br>
+                                        Domingo: 9:00 - 19:00
+                                    </p>
+                                </div>
+                            </div>
+                        </address>
+                        
+                        <div class="contact-social">
+                            <h3 class="social-title">Síguenos</h3>
+                            <div class="social-links">
+                                <a href="https://facebook.com/elaromacafe" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Facebook">
+                                    <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://instagram.com/elaromacafe" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Instagram">
+                                    <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://wa.me/525598765432" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Envíanos un mensaje por WhatsApp">
+                                    <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M16.75 13.96c.25.13.41.2.46.3.06.11.04.12.11.12.11.4 1.03-.43 1.18-.5 1.3-.08.12-.26.21-.57.35-.31.14-.69.31-1.13.52-.56.26-1.03.4-1.5.4-.37 0-.73-.12-1.02-.3l-.33-.18-.21-.12c-.14-.07-.28-.15-.43-.2-.18-.08-.34-.04-.51 0-.15.04-.26.05-.33.04-.15-.02-.85-.36-1.61-1.05-.62-.56-1.04-1.29-1.29-1.69-.1-.17-.03-.27.09-.38.07-.07.13-.15.2-.21.05-.05.1-.08.14-.13l.11-.12c.08-.09.18-.21.24-.29.07-.09.15-.22.18-.3.04-.08.01-.15-.02-.21s-.3-.76-.42-1.03c-.12-.28-.24-.2-.33-.24s-.18-.03-.3-.03-.25-.04-.37-.03c-.11-.01-.25-.01-.39-.01-.1-.01-.21 0-.31.04-.16.06-.44.17-.67.38-.2.19-.48.47-.73.74-.26.27-.47.55-.63.8-.16.24-.3.47-.41.69-.1.2-.18.39-.25.59-.03.09-.07.24-.07.27-.04.11.01.21.06.33.06.14.38.33.82.71.4.35.79.64 1.19.92.29.2.59.41.89.6.18.1.36.19.53.29.09.05.18.1.28.13.06.02.13.04.2.04.29.02.56.02.78.02.21 0 .42-.01.6-.07.2-.06.37-.16.51-.27.14-.1.25-.21.35-.31.08-.09.16-.2.23-.28.14-.18.26-.35.35-.47.07-.11.13-.19.2-.29.08-.1.14-.17.2-.23.09-.08.17-.16.24-.24.16-.18.33-.42.42-.56.09-.13.19-.29.27-.45.08-.16.14-.3.17-.38.04-.09.04-.17.02-.25-.03-.09-.07-.16-.12-.22-.05-.06-.11-.11-.17-.16-.06-.06-.13-.1-.2-.15-.08-.05-.18-.09-.28-.13-.33-.11-.69-.22-1.07-.33-.2-.05-.38-.08-.53-.11-.12-.02-.2-.04-.27-.05zM12 2c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form" action="#" method="POST" aria-label="Formulario de contacto y reservación">
+                    <h3 class="form-title">Envíanos un mensaje o reserva</h3>
+                    <p class="form-description">Estamos aquí para responder tus preguntas y tomar tus reservaciones.</p>
+                    <div class="form-group">
+                        <label for="name">Nombre completo</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu.correo@ejemplo.com" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono (opcional)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="55 1234 5678">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje o detalles de reservación</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Me gustaría reservar para 4 personas el viernes a las 7 PM..." required aria-required="true"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Enviar Mensaje</button>
+                    <div class="form-status" aria-live="polite"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section (Nuevo) -->
+    <section class="newsletter-section section-padding">
+        <div class="container text-center">
+            <div class="newsletter-content">
+                <h3 class="newsletter-title">¡Únete a la familia El Aroma!</h3>
+                <p class="newsletter-subtitle">Sé el primero en enterarte de nuestras promociones, nuevos productos y eventos especiales.</p>
+                <form class="newsletter-form" action="#" method="POST">
+                    <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required aria-label="Tu correo electrónico para suscribirte al boletín">
+                    <button type="submit" class="btn btn-primary">Suscribirme</button>
+                </form>
+                <p class="newsletter-privacy">Respetamos tu privacidad. Consulta nuestra <a href="/politica-privacidad.html">Política de Privacidad</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="img/logo.svg" alt="El Aroma Café - Logo" width="40" height="40">
+                    <span class="footer-brand-name">El Aroma</span>
+                    <p class="footer-tagline">Donde cada sorbo es una historia.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Explora</h4>
+                    <ul>
+                        <li><a href="#about">Nosotros</a></li>
+                        <li><a href="#menu">Menú</a></li>
+                        <li><a href="#gallery">Galería</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="/faq.html">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contáctanos</h4>
+                    <p><a href="tel:+525598765432">55 9876 5432</a></p>
+                    <p><a href="mailto:hola@elaromacafe.com">hola@elaromacafe.com</a></p>
+                    <p>Calle del Café 101, Col. Centro, CDMX</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/elaromacafe" target="_blank" rel="noopener noreferrer" aria-label="Facebook El Aroma Café">
+                            <svg class="social-icon" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg>
+                        </a>
+                        <a href="https://instagram.com/elaromacafe" target="_blank" rel="noopener noreferrer" aria-label="Instagram El Aroma Café">
+                            <svg class="social-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="https://wa.me/525598765432" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp El Aroma Café">
+                            <svg class="social-icon" viewBox="0 0 24 24"><path d="M16.75 13.96c.25.13.41.2.46.3.06.11.04.12.11.12.11.4 1.03-.43 1.18-.5 1.3-.08.12-.26.21-.57.35-.31.14-.69.31-1.13.52-.56.26-1.03.4-1.5.4-.37 0-.73-.12-1.02-.3l-.33-.18-.21-.12c-.14-.07-.28-.15-.43-.2-.18-.08-.34-.04-.51 0-.15.04-.26.05-.33.04-.15-.02-.85-.36-1.61-1.05-.62-.56-1.04-1.29-1.29-1.69-.1-.17-.03-.27.09-.38.07-.07.13-.15.2-.21.05-.05.1-.08.14-.13l.11-.12c.08-.09.18-.21.24-.29.07-.09.15-.22.18-.3.04-.08.01-.15-.02-.21s-.3-.76-.42-1.03c-.12-.28-.24-.2-.33-.24s-.18-.03-.3-.03-.25-.04-.37-.03c-.11-.01-.25-.01-.39-.01-.1-.01-.21 0-.31.04-.16.06-.44.17-.67.38-.2.19-.48.47-.73.74-.26.27-.47.55-.63.8-.16.24-.3.47-.41.69-.1.2-.18.39-.25.59-.03.09-.07.24-.07.27-.04.11.01.21.06.33.06.14.38.33.82.71.4.35.79.64 1.19.92.29.2.59.41.89.6.18.1.36.19.53.29.09.05.18.1.28.13.06.02.13.04.2.04.29.02.56.02.78.02.21 0 .42-.01.6-.07.2-.06.37-.16.51-.27.14-.1.25-.21.35-.31.08-.09.16-.2.23-.28.14-.18.26-.35.35-.47.07-.11.13-.19.2-.29.08-.1.14-.17.2-.23.09-.08.17-.16.24-.24.16-.18.33-.42.42-.56.09-.13.19-.29.27-.45.08-.16.14-.3.17-.38.04-.09.04-.17.02-.25-.03-.09-.07-.16-.12-.22-.05-.06-.11-.11-.17-.16-.06-.06-.13-.1-.2-.15-.08-.05-.18-.09-.28-.13-.33-.11-.69-.22-1.07-.33-.2-.05-.38-.08-.53-.11-.12-.02-.2-.04-.27-.05zM12 2c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p>&copy; <span id="current-year"></span> El Aroma Café. Todos los derechos reservados.</p>
+                    <ul class="footer-legal-links">
+                        <li><a href="/aviso-legal.html">Aviso Legal</a></li>
+                        <li><a href="/politica-privacidad.html">Política de Privacidad</a></li>
+                        <li><a href="/politica-cookies.html">Política de Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    <!-- Scripts JS -->
+    <script src="js/main.js"></script>
+    <script src="js/menu-tabs.js"></script>
+    <script src="js/gallery-modal.js"></script>
+    <script src="js/testimonials-slider.js"></script>
+    <script src="js/menu-generator.js"></script>
+    <script src="js/content-loader.js"></script> <!-- Nuevo script para cargar galería y testimonios -->
+    <script>
+        // Actualiza el año en el footer dinámicamente
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // JavaScript para el formulario de contacto (ejemplo básico)
+        document.querySelector('.contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formStatus = document.querySelector('.form-status');
+            formStatus.textContent = 'Enviando mensaje...';
+            formStatus.style.color = '#6f4e37'; // Color de tu marca
+
+            // Simular envío de formulario (reemplazar con fetch/AJAX real)
+            setTimeout(() => {
+                formStatus.textContent = '¡Mensaje enviado con éxito! Nos pondremos en contacto pronto.';
+                formStatus.style.color = '#28a745'; // Color de éxito
+                this.reset(); // Limpiar formulario
+            }, 2000);
+        });
+    </script>
+</body>
+</html>

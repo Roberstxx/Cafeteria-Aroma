@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Pastel de Chocolate Belga",
+    "image": "img/PastelBelga.avif",
+    "price": "95 MXN",
+    "description": "Cinco capas de bizcocho de chocolate con ganache y relleno de frambuesa. Glaseado espejo.",
+    "badge": "Favorito",
+    "meta": ["Opción sin gluten disponible"]
+  },
+  {
+    "name": "Cheesecake Clásico",
+    "image": "img/CheesecakeClasico.jpg",
+    "price": "85 MXN",
+    "description": "Base de galleta casera, crema de queso suave y ligera, acompañada de coulis de frutos rojos.",
+    "badge": null,
+    "meta": []
+  },
+  {
+    "name": "Macarons Artesanales",
+    "image": "img/Macarons.webp",
+    "price": "35 MXN c/u",
+    "description": "Delicados dulces franceses con rellenos cremosos y sabores variados (pregunta por los de hoy).",
+    "badge": "Edición Limitada",
+    "meta": []
+  },
+  {
+    "name": "Brownie con Nuez",
+    "image": "img/BrownieNuez.jpg",
+    "price": "60 MXN",
+    "description": "Intenso brownie de chocolate con trozos de nuez, perfecto para acompañar tu café.",
+    "badge": null,
+    "meta": ["Caliente si lo deseas"]
+  }
+]
