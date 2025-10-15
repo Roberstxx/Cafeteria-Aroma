@@ -3,7 +3,8 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "Content-Security-Policy", "value": "frame-ancestors *" },
+        { "key": "Content-Security-Policy", "value": "frame-ancestors https://jarbs-portafolio.vercel.app/ https://*.vercel.app" },
+        { "key": "Referrer-Policy", "value": "no-referrer-when-downgrade" },
         { "key": "X-Content-Type-Options", "value": "nosniff" }
       ]
     }
