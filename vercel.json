@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "headers": [
     {
       "source": "/(.*)",
@@ -9,7 +10,10 @@
         },
         { "key": "Referrer-Policy", "value": "no-referrer-when-downgrade" },
         { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "ALLOWALL" }
+        {
+          "key": "X-Frame-Options",
+          "value": "ALLOW-FROM https://jarbs-portafolio.vercel.app"
+        }
       ]
     }
   ]
