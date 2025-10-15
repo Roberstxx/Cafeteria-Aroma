@@ -3,9 +3,13 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "Content-Security-Policy", "value": "frame-ancestors https://jarbs-portafolio.vercel.app/ https://*.vercel.app" },
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'self' https://jarbs-portafolio.vercel.app https://*.vercel.app"
+        },
         { "key": "Referrer-Policy", "value": "no-referrer-when-downgrade" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" }
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "ALLOWALL" }
       ]
     }
   ]
